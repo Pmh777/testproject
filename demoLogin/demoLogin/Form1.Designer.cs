@@ -50,9 +50,11 @@ namespace demoLogin
             this.label1.Location = new System.Drawing.Point(220, 228);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
+
             this.label1.Size = new System.Drawing.Size(185, 17);
+
             this.label1.TabIndex = 0;
-            this.label1.Text = "Nguyen Thanh Long is here";
+            this.label1.Text = "Nguyen Thanh Long is here ABC";
             // 
             // label2
             // 
