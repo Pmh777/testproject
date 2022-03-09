@@ -31,33 +31,49 @@ namespace demoLogin
         {
             this.MinhHung = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // MinhHung
             // 
             this.MinhHung.AutoSize = true;
-            this.MinhHung.Location = new System.Drawing.Point(165, 57);
+            this.MinhHung.Location = new System.Drawing.Point(220, 70);
+            this.MinhHung.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.MinhHung.Name = "MinhHung";
-            this.MinhHung.Size = new System.Drawing.Size(114, 13);
+            this.MinhHung.Size = new System.Drawing.Size(148, 17);
             this.MinhHung.TabIndex = 0;
             this.MinhHung.Text = "Minh Hung Minh Hung";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(165, 185);
+            this.label1.Location = new System.Drawing.Point(220, 228);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(163, 13);
+
+            this.label1.Size = new System.Drawing.Size(185, 17);
+
             this.label1.TabIndex = 0;
             this.label1.Text = "Nguyen Thanh Long is here ABC";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(722, 202);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(58, 17);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "giaphuc";
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.MinhHung);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -69,6 +85,7 @@ namespace demoLogin
 
         private System.Windows.Forms.Label MinhHung;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
 
