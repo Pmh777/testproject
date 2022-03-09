@@ -35,11 +35,11 @@ namespace demoLogin
             // MinhHung
             // 
             this.MinhHung.AutoSize = true;
-            this.MinhHung.Location = new System.Drawing.Point(80, 54);
+            this.MinhHung.Location = new System.Drawing.Point(165, 57);
             this.MinhHung.Name = "MinhHung";
-            this.MinhHung.Size = new System.Drawing.Size(59, 13);
+            this.MinhHung.Size = new System.Drawing.Size(114, 13);
             this.MinhHung.TabIndex = 0;
-            this.MinhHung.Text = "Minh Hung";
+            this.MinhHung.Text = "Minh Hung Minh Hung";
             // 
             // Form1
             // 
